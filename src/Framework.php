@@ -20,7 +20,7 @@ class Framework extends LibraryInstaller {
      */
     public function getInstallPath(PackageInterface $package) {
 
-        if ('nb/framework' !== $package->getPrettyName()) {
+        if ('nbcx/framework' !== $package->getPrettyName()) {
             throw new \InvalidArgumentException('Unable to install this library!');
         }
 
