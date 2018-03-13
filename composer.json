@@ -1,0 +1,25 @@
+{
+    "name": "nbcx/installer",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "require-dev": {
+        "composer/composer": "1.0.*@dev"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Collin",
+            "email": "admin@nb.cx"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "nb\\composer\\": "src"
+        }
+    },
+    "extra": {
+        "class": "nb\\composer\\Plugin"
+    }
+}
