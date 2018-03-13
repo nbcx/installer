@@ -1,5 +1,5 @@
 {
-    "name": "nbcx/installer",
+    "name": "nb/installer",
     "type": "composer-plugin",
     "require": {
         "composer-plugin-api": "^1.0"
