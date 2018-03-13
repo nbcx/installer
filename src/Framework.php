@@ -21,7 +21,7 @@ class Framework extends LibraryInstaller {
     public function getInstallPath(PackageInterface $package) {
 
         if ('nbcx/framework' !== $package->getPrettyName()) {
-            throw new \InvalidArgumentException('Unable to install this library!');
+            throw new \InvalidArgumentException('Unable to install this library!'. $package->getPrettyName());
         }
 
         if ($this->composer->getPackage()->getType() !== 'project') {
