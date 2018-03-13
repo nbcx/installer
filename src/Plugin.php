@@ -16,7 +16,7 @@ class Plugin implements PluginInterface {
         $manager->addInstaller(new Framework($io, $composer));
 
         //单元测试
-        $manager->addInstaller(new Testing($io, $composer));
+        //$manager->addInstaller(new Testing($io, $composer));
 
         //扩展
         $manager->addInstaller(new Extend($io, $composer));
